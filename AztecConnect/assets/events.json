@@ -1,0 +1,394 @@
+[
+  {
+    "title": "April 2025 - Food Distribution",
+    "organization": "ASUB",
+    "location": "Library",
+    "datetime": "2025-04-29T18:00:00",
+    "attendeeCount": 2,
+    "category": "Food"
+  },
+  {
+    "title": "Bagel Making with FIR Aviva",
+    "organization": "Career Services",
+    "location": "Montezuma Hall",
+    "datetime": "2025-04-22T17:00:00",
+    "attendeeCount": 37,
+    "category": "Food"
+  },
+  {
+    "title": "WNDR Museum",
+    "organization": "Residential Education",
+    "location": "ARC",
+    "datetime": "2025-05-11T11:00:00",
+    "attendeeCount": 16,
+    "category": "Wellness"
+  },
+  {
+    "title": "YMOCA Basketball Tournament",
+    "organization": "Esports Center",
+    "location": "Online",
+    "datetime": "2025-05-02T14:30:00",
+    "attendeeCount": 1,
+    "category": "Sports"
+  },
+  {
+    "title": "Monarch Graduation",
+    "organization": "Residential Education",
+    "location": "ARC",
+    "datetime": "2025-05-15T15:30:00",
+    "attendeeCount": 2,
+    "category": "Graduation"
+  },
+  {
+    "title": "Bagel Brunch with FIR Aviva",
+    "organization": "Residential Education",
+    "location": "Library",
+    "datetime": "2025-04-21T18:30:00",
+    "attendeeCount": 28,
+    "category": "Food"
+  },
+  {
+    "title": "Esports Engagement Center April 28",
+    "organization": "SDSU IV",
+    "location": "Library",
+    "datetime": "2025-04-22T08:00:00",
+    "attendeeCount": 28,
+    "category": "Esports"
+  },
+  {
+    "title": "SDSU IV Food Pantry - Snacks & Drinks (4/28)",
+    "organization": "Undocumented Resource Center",
+    "location": "Zura Community Kitchen",
+    "datetime": "2025-04-24T11:30:00",
+    "attendeeCount": 8,
+    "category": "Food"
+  },
+  {
+    "title": "A.S. Food Pantry Spring 2025",
+    "organization": "ASUB",
+    "location": "Library",
+    "datetime": "2025-05-04T20:00:00",
+    "attendeeCount": 21,
+    "category": "Food"
+  },
+  {
+    "title": "Talk It Out With Patricia",
+    "organization": "Residential Education",
+    "location": "Library",
+    "datetime": "2025-05-04T14:30:00",
+    "attendeeCount": 17,
+    "category": "Career"
+  },
+  {
+    "title": "Finals Relax and Refuel Stations (4/28)",
+    "organization": "SDSU IV",
+    "location": "ARC",
+    "datetime": "2025-05-13T16:30:00",
+    "attendeeCount": 34,
+    "category": "Wellness"
+  },
+  {
+    "title": "Esports Session",
+    "organization": "Esports Center",
+    "location": "Montezuma Hall",
+    "datetime": "2025-05-07T11:00:00",
+    "attendeeCount": 24,
+    "category": "Esports"
+  },
+  {
+    "title": "Hop Into Spring",
+    "organization": "SDSU IV",
+    "location": "Student Union",
+    "datetime": "2025-05-12T09:00:00",
+    "attendeeCount": 31,
+    "category": "Wellness"
+  },
+  {
+    "title": "SDSU IV Food Pantry - Snacks & Drinks (4/29)",
+    "organization": "SDSU IV",
+    "location": "Student Union",
+    "datetime": "2025-05-07T12:30:00",
+    "attendeeCount": 28,
+    "category": "Food"
+  },
+  {
+    "title": "Flourish & Craft",
+    "organization": "SDSU IV",
+    "location": "Library",
+    "datetime": "2025-05-10T08:30:00",
+    "attendeeCount": 41,
+    "category": "Wellness"
+  },
+  {
+    "title": "REO Wellness Fair",
+    "organization": "ASUB",
+    "location": "Student Union",
+    "datetime": "2025-05-02T15:00:00",
+    "attendeeCount": 45,
+    "category": "Wellness"
+  },
+  {
+    "title": "Creating an Effective Resume",
+    "organization": "Undocumented Resource Center",
+    "location": "Student Union",
+    "datetime": "2025-04-22T19:30:00",
+    "attendeeCount": 38,
+    "category": "Career"
+  },
+  {
+    "title": "Finals Relax and Refuel Stations (4/29)",
+    "organization": "Residential Education",
+    "location": "Online",
+    "datetime": "2025-05-12T18:00:00",
+    "attendeeCount": 9,
+    "category": "Wellness"
+  },
+  {
+    "title": "Stress Relief Finals Event",
+    "organization": "ASUB",
+    "location": "Student Union",
+    "datetime": "2025-05-07T20:30:00",
+    "attendeeCount": 27,
+    "category": "Wellness"
+  },
+  {
+    "title": "De-Stress Fest",
+    "organization": "SDSU IV",
+    "location": "Student Union",
+    "datetime": "2025-04-22T19:00:00",
+    "attendeeCount": 6,
+    "category": "Wellness"
+  },
+  {
+    "title": "SDSU IV Food Pantry - Snacks & Drinks (4/30)",
+    "organization": "Undocumented Resource Center",
+    "location": "Zura Community Kitchen",
+    "datetime": "2025-05-09T08:00:00",
+    "attendeeCount": 33,
+    "category": "Food"
+  },
+  {
+    "title": "Spring Self-Care Expo",
+    "organization": "Undocumented Resource Center",
+    "location": "Student Union",
+    "datetime": "2025-05-08T12:30:00",
+    "attendeeCount": 46,
+    "category": "Wellness"
+  },
+  {
+    "title": "Finals Relax and Refuel Stations (4/30)",
+    "organization": "Career Services",
+    "location": "Online",
+    "datetime": "2025-04-15T12:00:00",
+    "attendeeCount": 14,
+    "category": "Wellness"
+  },
+  {
+    "title": "Spring Academic Carnival",
+    "organization": "Undocumented Resource Center",
+    "location": "Montezuma Hall",
+    "datetime": "2025-04-16T19:30:00",
+    "attendeeCount": 33,
+    "category": "Wellness"
+  },
+  {
+    "title": "May 2025 - Food Distribution",
+    "organization": "SDSU IV",
+    "location": "ARC",
+    "datetime": "2025-04-22T13:00:00",
+    "attendeeCount": 1,
+    "category": "Food"
+  },
+  {
+    "title": "SDSU IV Food Pantry - Snacks & Drinks (5/1)",
+    "organization": "ASUB",
+    "location": "Zura Community Kitchen",
+    "datetime": "2025-05-12T13:30:00",
+    "attendeeCount": 4,
+    "category": "Food"
+  },
+  {
+    "title": "Grad School Workshop",
+    "organization": "Undocumented Resource Center",
+    "location": "Online",
+    "datetime": "2025-05-14T12:30:00",
+    "attendeeCount": 28,
+    "category": "Career"
+  },
+  {
+    "title": "Finals Relax and Refuel Stations (5/1)",
+    "organization": "Residential Education",
+    "location": "Zura Community Kitchen",
+    "datetime": "2025-04-19T17:30:00",
+    "attendeeCount": 40,
+    "category": "Wellness"
+  },
+  {
+    "title": "End Of Year Celebration 2025",
+    "organization": "Residential Education",
+    "location": "Montezuma Hall",
+    "datetime": "2025-05-04T11:00:00",
+    "attendeeCount": 6,
+    "category": "Wellness"
+  },
+  {
+    "title": "Rent Field Trip",
+    "organization": "Residential Education",
+    "location": "Montezuma Hall",
+    "datetime": "2025-04-27T08:30:00",
+    "attendeeCount": 16,
+    "category": "Wellness"
+  },
+  {
+    "title": "Talk It Out With Patricia (5/5)",
+    "organization": "Career Services",
+    "location": "Zura Community Kitchen",
+    "datetime": "2025-05-01T18:30:00",
+    "attendeeCount": 19,
+    "category": "Career"
+  },
+  {
+    "title": "Finals Relax and Refuel Stations (5/5)",
+    "organization": "Esports Center",
+    "location": "Student Union",
+    "datetime": "2025-04-18T11:30:00",
+    "attendeeCount": 42,
+    "category": "Esports"
+  },
+  {
+    "title": "Finals Relax and Refuel Stations (5/6)",
+    "organization": "SDSU IV",
+    "location": "Student Union",
+    "datetime": "2025-05-02T16:00:00",
+    "attendeeCount": 20,
+    "category": "Wellness"
+  },
+  {
+    "title": "Finals Relax and Refuel Stations (5/7)",
+    "organization": "ASUB",
+    "location": "Online",
+    "datetime": "2025-04-23T18:30:00",
+    "attendeeCount": 43,
+    "category": "Wellness"
+  },
+  {
+    "title": "Midnight Study Break",
+    "organization": "SDSU IV",
+    "location": "Online",
+    "datetime": "2025-04-30T10:00:00",
+    "attendeeCount": 10,
+    "category": "Wellness"
+  },
+  {
+    "title": "Game On! Midnight Study Break",
+    "organization": "Undocumented Resource Center",
+    "location": "Student Union",
+    "datetime": "2025-04-17T12:00:00",
+    "attendeeCount": 11,
+    "category": "Esports"
+  },
+  {
+    "title": "Finals Relax and Refuel Stations (5/8)",
+    "organization": "ASUB",
+    "location": "Online",
+    "datetime": "2025-05-13T19:00:00",
+    "attendeeCount": 21,
+    "category": "Wellness"
+  },
+  {
+    "title": "Graduation Luncheon",
+    "organization": "Esports Center",
+    "location": "Online",
+    "datetime": "2025-05-15T09:00:00",
+    "attendeeCount": 40,
+    "category": "Graduation"
+  },
+  {
+    "title": "Finals Relax and Refuel Stations (5/9)",
+    "organization": "Residential Education",
+    "location": "Library",
+    "datetime": "2025-05-13T09:00:00",
+    "attendeeCount": 43,
+    "category": "Wellness"
+  },
+  {
+    "title": "Spring Academic Carnival",
+    "organization": "Residential Education",
+    "location": "Montezuma Hall",
+    "datetime": "2025-05-05T20:30:00",
+    "attendeeCount": 12,
+    "category": "Wellness"
+  },
+  {
+    "title": "LGBTAIA2S+ Resilience Series",
+    "organization": "Residential Education",
+    "location": "Montezuma Hall",
+    "datetime": "2025-05-13T16:00:00",
+    "attendeeCount": 34,
+    "category": "Wellness"
+  },
+  {
+    "title": "De-Stress Yoga",
+    "organization": "Undocumented Resource Center",
+    "location": "ARC",
+    "datetime": "2025-05-02T11:30:00",
+    "attendeeCount": 22,
+    "category": "Wellness"
+  },
+  {
+    "title": "Spring Self-Care Expo",
+    "organization": "Residential Education",
+    "location": "ARC",
+    "datetime": "2025-04-26T18:30:00",
+    "attendeeCount": 10,
+    "category": "Wellness"
+  },
+  {
+    "title": "Aztec Nights Spring Fest",
+    "organization": "SDSU IV",
+    "location": "Student Union",
+    "datetime": "2025-05-02T13:30:00",
+    "attendeeCount": 9,
+    "category": "Wellness"
+  },
+  {
+    "title": "Finals Relax and Refuel Stations (5/12)",
+    "organization": "SDSU IV",
+    "location": "Online",
+    "datetime": "2025-05-06T10:00:00",
+    "attendeeCount": 35,
+    "category": "Wellness"
+  },
+  {
+    "title": "SDSU IV Food Pantry - Snacks & Drinks (5/2)",
+    "organization": "SDSU IV",
+    "location": "Montezuma Hall",
+    "datetime": "2025-05-13T14:00:00",
+    "attendeeCount": 37,
+    "category": "Food"
+  },
+  {
+    "title": "Leadership Recognition Ceremony",
+    "organization": "SDSU IV",
+    "location": "Zura Community Kitchen",
+    "datetime": "2025-05-06T12:30:00",
+    "attendeeCount": 4,
+    "category": "Wellness"
+  },
+  {
+    "title": "Aztec Connect Launch Party",
+    "organization": "Undocumented Resource Center",
+    "location": "ARC",
+    "datetime": "2025-05-07T12:30:00",
+    "attendeeCount": 4,
+    "category": "Wellness"
+  },
+  {
+    "title": "Volunteer Day",
+    "organization": "Residential Education",
+    "location": "ARC",
+    "datetime": "2025-05-02T15:30:00",
+    "attendeeCount": 8,
+    "category": "Wellness"
+  }
+]
