@@ -1,9 +1,10 @@
 import { Tabs } from 'expo-router';
 import { createContext, useContext, useState } from 'react';
 import Toast from 'react-native-toast-message';
+import { Ionicons } from '@expo/vector-icons'; // ✅ Icon import
 
 // Event type
-import type { EventCategory } from '../../components/EventCard'; // Assuming _layout is in /tabs/
+import type { EventCategory } from '../../components/EventCard';
 
 export type EventType = {
   title: string;
@@ -14,8 +15,6 @@ export type EventType = {
   category: EventCategory;
 };
 
-
-// Context type
 type LikedEventsContextType = {
   likedEvents: EventType[];
   points: number;
@@ -58,7 +57,7 @@ export default function TabsLayout() {
         (e) => !(e.title === event.title && e.datetime === event.datetime)
       )
     );
-    setPoints((prev) => Math.max(prev - 5, 0)); // Remove 5 points when deleting, not below 0
+    setPoints((prev) => Math.max(prev - 5, 0));
   };
 
   const clearEvents = () => {
@@ -69,10 +68,31 @@ export default function TabsLayout() {
   return (
     <>
       <LikedEventsContext.Provider value={{ likedEvents, points, addEvent, removeEvent, clearEvents }}>
-        <Tabs>
+        <Tabs
+          screenOptions={({ route }) => ({
+            tabBarIcon: ({ focused, color, size }) => {
+              let iconName: keyof typeof Ionicons.glyphMap = 'home';
+
+              if (route.name === 'index') {
+                iconName = focused ? 'home' : 'home-outline';
+              } else if (route.name === 'EventDashboard') {
+                iconName = focused ? 'calendar' : 'calendar-outline';
+              } else if (route.name === 'my-events') {
+                iconName = focused ? 'heart' : 'heart-outline';
+              } else if (route.name === 'Leaderboard') {
+                iconName = focused ? 'trophy' : 'trophy-outline';
+              }
+
+              return <Ionicons name={iconName} size={size} color={color} />;
+            },
+            tabBarActiveTintColor: '#C23038', // Mahogany
+            tabBarInactiveTintColor: 'gray',
+          })}
+        >
           <Tabs.Screen name="index" options={{ title: 'Home' }} />
           <Tabs.Screen name="EventDashboard" options={{ title: 'Events' }} />
           <Tabs.Screen name="my-events" options={{ title: 'My Events' }} />
+          <Tabs.Screen name="Leaderboard" options={{ title: 'Leaderboard' }} />
         </Tabs>
       </LikedEventsContext.Provider>
       <Toast />
