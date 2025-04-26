@@ -5,13 +5,13 @@ export default function Leaderboard() {
   const { points } = useLikedEvents();
 
   const users = [
-    { name: 'AztecKing', points: 135 },
-    { name: 'CampusStar', points: 120 },
-    { name: 'EventMaster', points: 110 },
+    { name: 'Joshua Chong', points: 135 },
+    { name: 'Max Mendoza', points: 120 },
+    { name: 'Reagan Hsu', points: 110 },
     { name: 'You', points }, // 👈 Your dynamic points
-    { name: 'SwiftScholar', points: 80 },
-    { name: 'FiestaFan', points: 70 },
-    { name: 'SDSUExplorer', points: 65 },
+    { name: 'Mindy Huynh', points: 80 },
+    { name: 'John Choi', points: 70 },
+    { name: 'Isaac An', points: 65 },
   ];
 
   const sortedUsers = users.sort((a, b) => b.points - a.points);

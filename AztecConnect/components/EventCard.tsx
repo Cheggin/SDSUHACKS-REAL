@@ -16,12 +16,12 @@ type EventCardProps = {
 
 // Preloaded local images mapped by category
 const categoryImages: Record<EventCategory, any> = {
-  Food: require('../assets/events/event6.png'),
-  Graduation: require('../assets/events/event1.png'),
-  Sports: require('../assets/events/event3.png'),
-  Esports: require('../assets/events/event5.png'),
-  Wellness: require('../assets/events/event2.png'),
-  Career: require('../assets/events/event4.png'),
+  Food: require('../assets/events/Food.png'),
+  Graduation: require('../assets/events/Graduation.png'),
+  Sports: require('../assets/events/Sports.png'),
+  Esports: require('../assets/events/Esports.png'),
+  Wellness: require('../assets/events/Wellness.png'),
+  Career: require('../assets/events/Career.png'),
 };
 
 export default function EventCard({ title, organization, location, datetime, attendeeCount, category }: EventCardProps) {
@@ -39,12 +39,13 @@ export default function EventCard({ title, organization, location, datetime, att
   return (
     <View style={styles.card}>
       <Image source={selectedImage} style={styles.image} resizeMode="cover" />
-      <View style={styles.overlay}>
+
+      <View style={styles.textContainer}>
         <Text style={styles.title}>{title}</Text>
-        <Text style={styles.details}>{organization}</Text>
-        <Text style={styles.details}>Location: {location}</Text>
-        <Text style={styles.details}>{displayDate}</Text>
-        <Text style={styles.details}>Attendees: {attendeeCount}</Text>
+        <Text style={styles.subtitle}>{organization}</Text>
+        <Text style={styles.details}>📍 {location}</Text>
+        <Text style={styles.details}>🗓️ {displayDate}</Text>
+        <Text style={styles.details}>👥 {attendeeCount} attending</Text>
       </View>
     </View>
   );
@@ -53,31 +54,38 @@ export default function EventCard({ title, organization, location, datetime, att
 const styles = StyleSheet.create({
   card: {
     width: width * 0.9,
-    height: height * 0.75,
-    borderRadius: 20,
+    backgroundColor: 'white',
+    borderRadius: 16,
     overflow: 'hidden',
     elevation: 5,
-    backgroundColor: '#000',
+    shadowColor: '#000',
+    shadowOpacity: 0.08,
+    shadowOffset: { width: 0, height: 3 },
+    shadowRadius: 5,
+    marginBottom: 20,
   },
   image: {
     width: '100%',
-    height: '100%',
-    position: 'absolute',
+    height: height * 0.60, 
   },
-  overlay: {
-    flex: 1,
-    backgroundColor: 'rgba(0,0,0,0.4)',
-    padding: 20,
-    justifyContent: 'flex-end',
+  textContainer: {
+    padding: 16,
   },
   title: {
-    fontSize: 28,
-    color: '#fff',
+    fontSize: 22,
     fontWeight: 'bold',
+    color: '#C23038',
+    marginBottom: 4,
+  },
+  subtitle: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#555',
     marginBottom: 8,
   },
   details: {
-    fontSize: 18,
-    color: '#eee',
+    fontSize: 14,
+    color: '#777',
+    marginBottom: 2,
   },
 });
